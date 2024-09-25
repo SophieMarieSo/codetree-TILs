@@ -2,4 +2,5 @@ let [a, b] = [5, 3];
 
 [a, b] = [b, a]
 
-console.log(`A is ${a} B is ${b}`);
+console.log(b);
+console.log(a);
