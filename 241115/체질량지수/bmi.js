@@ -5,4 +5,4 @@ const w = Number(input[1])
 const bmi = Math.floor((10000 * w) / h**2)
 
 console.log(bmi)
-console.log(bmi > 25 && 'Obesity')
+if(bmi > 25) console.log('Obesity')
